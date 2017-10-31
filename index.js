@@ -4,7 +4,9 @@ var app = express()
 
 app.set('port', (process.env.PORT || 5000))
 app.use(express.static("public"))
-app.use('/twbs', express.static(__dirname + '/node_modules/bootstrap/dist/'))
+app.use('/twbs', express.static(__dirname + '/node_modules/bootstrap/dist'))
+app.use('/twbs-helpers', express.static(__dirname + '/node_modules/bootstrap'))
+
 
 // Routes
 app.get('/', function(request, response) {

@@ -33,7 +33,7 @@ body {
 }
 
 /*Start of mobile integration*/
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 425px) {
    .std_wrapper {
       grid-template-columns: 1fr;
    }
@@ -53,4 +53,5 @@ body {
       text-align: justify;
       padding: 30px;
    }
+
 }
