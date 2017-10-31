@@ -11,6 +11,17 @@ body {
 	grid-auto-rows: minmax(100px, auto);
 }
 
+/*Main stylings for application*/
+.heading {
+   text-align: center;
+}
+
+.center_bar {
+   background: rgba(255, 255, 255, 0.5);
+   color: rgb(75, 75, 75);
+   border-radius: 5px;
+}
+
 /*Start of mobile integration*/
 @media only screen and (max-width: 740px) {
    .std_wrapper {
