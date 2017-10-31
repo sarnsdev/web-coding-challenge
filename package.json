@@ -1,0 +1,24 @@
+{
+  "name": "web-coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newshipt/web-coding-challenge.git"
+  },
+  "author": "Stephen Arnsparger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newshipt/web-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/newshipt/web-coding-challenge#readme",
+  "dependencies": {
+    "css": "^2.2.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
