@@ -19,6 +19,7 @@
   "homepage": "https://github.com/newshipt/web-coding-challenge#readme",
   "dependencies": {
     "css": "^2.2.1",
+    "curl": "^0.1.4",
     "ejs": "^2.5.7",
     "express": "^4.16.2"
   }
