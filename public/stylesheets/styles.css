@@ -1,3 +1,4 @@
+/*Setting up the grid and backgrounds*/
 body {
    background-image: url('../images/cheap_diagonal_fabric.png');
    color: white;
@@ -10,11 +11,7 @@ body {
 	grid-auto-rows: minmax(100px, auto);
 }
 
-nav {
-   grid-column: 1 / 4;
-	grid-row: 1 / 2;
-}
-
+/*Start of mobile integration*/
 @media only screen and (max-width: 740px) {
    .std_wrapper {
       grid-template-columns: 1fr;
