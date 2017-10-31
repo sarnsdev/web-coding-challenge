@@ -1,3 +1,26 @@
 body {
    background-image: url('../images/cheap_diagonal_fabric.png');
+   color: white;
+	font-family: helvetica;
+}
+
+.std_wrapper {
+   display: grid;
+   grid-template-columns: 1fr 6fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+nav {
+   grid-column: 1 / 4;
+	grid-row: 1 / 2;
+}
+
+@media only screen and (max-width: 740px) {
+   .std_wrapper {
+      grid-template-columns: 1fr;
+   }
+
+   .sidebar {
+      display: none;
+   }
 }
