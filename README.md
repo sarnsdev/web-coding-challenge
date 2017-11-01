@@ -11,6 +11,8 @@ Navigation
 Reasoning
 ---------
 
+Personally, I am a web developer with not as much practice as I would like. I do a lot of research and watch lectures on the topic that are recorded at various conferences. I am rather familiar with the tools Ruby on Rails, NodeJS, JEE/Spring, and a few small PHP frameworks. I chose NodeJS for this specific project because through my experience as a Node developer I knew of several npm packages that would help me out with this goal, which shows a foundation in an ability to read outside code specs and an ability to  
+
 Workflow
 --------
 - Open code using
@@ -34,6 +36,8 @@ Workflow
    git push heroku master
    heroku open
    ```
+
+* If you are trying to run this after a '<git clone>' you will need to run '<npm update>' so that you can download node_modules that are needed to run since I disallow that folder to be pushed to my repository. 
 
 
 
