@@ -37,7 +37,7 @@ Workflow
    heroku open
    ```
 
-* If you are trying to run this after a '<git clone>' you will need to run '<npm update>' so that you can download node_modules that are needed to run since I disallow that folder to be pushed to my repository. 
+* If you are trying to run this after a 'git clone' you will need to run 'npm update' so that you can download node_modules that are needed to run since I disallow that folder to be pushed to my repository. 
 
 
 
