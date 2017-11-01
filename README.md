@@ -12,6 +12,28 @@ Reasoning
 
 Workflow
 --------
+- Open code using
+   ```
+   cd path/to/directory
+   atom web-coding-challenge/
+   ```
+- Edit and update code as needed
+- View code locally
+   ```
+   node index.js
+   ```
+- Commit to GitHub
+   ```
+   git add .
+   git commit -m "Comments here"
+   git push origin master
+   ```
+- Commit to Heroku once working
+   ```
+   git push heroku master
+   heroku open
+   ```
+
 
 
 TODO
