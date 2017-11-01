@@ -14,23 +14,23 @@ Reasoning
 Workflow
 --------
 - Open code using
-   ```
+   ```bash
    cd path/to/directory
    atom web-coding-challenge/
    ```
 - Edit and update code as needed
 - View code locally
-   ```
+   ```bash
    node index.js
    ```
 - Commit to GitHub
-   ```
+   ```bash
    git add .
    git commit -m "Comments here"
    git push origin master
    ```
 - Commit to Heroku once working
-   ```
+   ```bash
    git push heroku master
    heroku open
    ```
