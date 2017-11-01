@@ -15,7 +15,7 @@ app.get('/', function(request, response) {
 
 app.post("/search", function(req, res) {
 	var query = req.body.query
-   data = //something that pulls from github
+   data = query//something that pulls from github
 	res.render("search-page.ejs", {
 		data: data
 	})

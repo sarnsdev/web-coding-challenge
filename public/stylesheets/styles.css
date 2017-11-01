@@ -1,7 +1,6 @@
 /*Setting up the grid and backgrounds*/
 body {
    background-image: url('../images/cheap_diagonal_fabric.png');
-   color: white;
 	font-family: helvetica;
 }
 
@@ -9,6 +8,12 @@ body {
    display: grid;
    grid-template-columns: 1fr 5fr 1fr;
 	grid-auto-rows: minmax(100px, auto);
+}
+
+.index_form_wrapper {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-auto-rows: minmax(100px, auto);
 }
 
 /*Main stylings for application*/
@@ -33,6 +38,14 @@ body {
    color: rgb(75, 75, 75);
 
 }
+
+.index_form {
+   grid-column: 2/3;
+   text-align: center;
+   font-size: 24px;
+   letter-spacing: 4px;
+}
+
 
 /*Start of mobile integration*/
 @media only screen and (max-width: 425px) {
