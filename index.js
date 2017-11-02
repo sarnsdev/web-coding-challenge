@@ -30,9 +30,9 @@ app.post("/search", function(req, res) {
    }, function (error, resultingData) {
       if (error) throw error
       // console.log(JSON.stringify(resultingData))
-      console.log(resultingData.data.items[0]);
+      console.log(resultingData.data.items);
       res.render("search-page.ejs", {
-   		data: JSON.stringify(resultingData.data.items[0])
+   		data: resultingData.data.items
    	})
    })
 })

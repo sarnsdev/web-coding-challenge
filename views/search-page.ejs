@@ -1,3 +1,7 @@
 <% include partials/header.ejs %>
-<h1>Search query was "<%= data %>""</h1?
+<div class="">
+   <img src="<%= data[0].avatar_url %>"/>
+   <h1><%= data[0].login %></h1>
+</div>
+
 <% include partials/footer.ejs %>
