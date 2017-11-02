@@ -3,7 +3,7 @@ Shipt Coding Challenge
 
 [Link to site](https://sarnsdev-shipt-challenge.herokuapp.com/)
   |  [Resume](https://docs.google.com/document/d/1hW9D7f4YvKk1l836_yTsOGRQel5OmMI0XnlbIv9sFXI/edit?usp=sharing)
-  |  [Connect with me on LinkedIn](www.linkedin.com/in/stephenarnsparger)
+  |  [Connect with me on LinkedIn](https://www.linkedin.com/in/stephenarnsparger)
 
 This webpage is to respond to the Shipt coding challenge for the Web Developer Intern position at the Birmingham HQ. Below in my Readme section I describe how to run this on a local machine in development mode and how I push to a remote after a story has been implemented fully. I will be doing this so that the dev staff at Shipt can see my standard workflow and adjust practices if required.
 
