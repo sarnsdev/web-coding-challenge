@@ -22,17 +22,22 @@ app.get('/', function(request, response) {
 
 app.post("/search", function(req, res) {
 	var query = req.body.query
+   var pagesRendered = req.body.pagesRendered
+   var allResults = new Array()
    github.search.users({
       q:        query,
       order:    'desc',
       per_page: 50,
       page:     1
    }, function (error, resultingData) {
-      if (error) throw error
-      // console.log(JSON.stringify(resultingData))
-      console.log(resultingData.data.items);
+      if (error) res.redirect("*")
+      allResults.push.apply(allResults, resultingData.data.items)
+      // console.log(JSON.stringify(allResults))
+      // console.log(resultingData.data.items)
       res.render("search-page.ejs", {
-   		data: resultingData.data.items
+   		data: allResults,
+         pagesRendered: parseInt(pagesRendered),
+         lastQuery: query
    	})
    })
 })

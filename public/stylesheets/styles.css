@@ -46,6 +46,10 @@ body {
    letter-spacing: 4px;
 }
 
+.hidden_form {
+   display: none;
+}
+
 
 /*Start of mobile integration*/
 @media only screen and (max-width: 425px) {

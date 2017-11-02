@@ -1,7 +1,14 @@
 <% include partials/header.ejs %>
+<h1><%= data[0] %></h>
+<h1><%= pagesRendered %></h>
 <div class="">
    <img src="<%= data[0].avatar_url %>"/>
    <h1><%= data[0].login %></h1>
 </div>
+<form action="/search" method="post">
+   <input type="text" name="query" class="hidden_form" value="<%= lastQuery %>">
+   <input class="hidden_form" type="text" name="pagesRendered" value="<%= pagesRendered + 1 %>">
+   <button>Load More!</button>
+</form>
 
 <% include partials/footer.ejs %>

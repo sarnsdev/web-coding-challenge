@@ -37,7 +37,7 @@ Workflow
    heroku open
    ```
 
-* If you are trying to run this after a 'git clone' you will need to run 'npm update' so that you can download node_modules that are needed to run since I disallow that folder to be pushed to my repository. 
+* If you are trying to run this after a 'git clone' you will need to run 'npm update' so that you can download node_modules that are needed to run since I disallow that folder to be pushed to my repository.
 
 
 
@@ -45,7 +45,8 @@ TODO
 ====
 - [X] Setup with basic hello world
 - [X] Setup on Twitter Bootstrap
-- [ ] Setup dummy views
-- [ ] Write js to pull from github
+- [X] Setup dummy views
+- [X] Write js to pull from github
+- [X] ~Decide how to implement more page loads~ (JQuery)
 - [ ] connect js to dummy views
 - [ ] clean up
