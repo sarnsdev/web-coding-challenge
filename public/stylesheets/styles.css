@@ -17,7 +17,7 @@ body {
 }
 .search_item_wrapper {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+   grid-template-columns: repeat(10, 1fr);
 }
 /*Main stylings for application*/
 .heading {
@@ -48,11 +48,17 @@ body {
 .hidden_form {
    display: none;
 }
-img.search_item {
-   display: block;
+.search_item {
+   padding: 10px;
 }
-h1.search_item {
-
+.search-img {
+   width: 80px;
+   display: block;
+   height: auto;
+}
+.search-name {
+   text-align: center;
+font-size: 16px;
 }
 /*Start of mobile integration*/
 @media only screen and (max-width: 425px) {

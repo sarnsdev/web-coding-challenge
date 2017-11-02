@@ -35,7 +35,8 @@ app.post("/search", function(req, res) {
       // console.log(JSON.stringify(allResults))
       // console.log(resultingData.data.items)
       res.render("search-page.ejs", {
-   		data: allResults,
+   		data:     allResults,
+         numItems: resultingData.data.total_count
    	})
    })
 })

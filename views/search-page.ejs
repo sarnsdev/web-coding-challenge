@@ -1,9 +1,12 @@
 <% include partials/header.ejs %>
+<% if (numItems < 50)
+      var n = numItems
+   else var n = 50 %>
 <div class="search_item_wrapper">
-   <% for(i = 0; i < 50; i++) { %>
+   <% for(i = 0; i < n; i++) { %>
       <div class="search_item">
-         // <img src="<%= data[i].avatar_url %>"/>
-         <h1><%= data[i].login %></h1>
+         <img class="search-img" src="<%= data[i].avatar_url %>"/>
+         <h1 class="search-name"><%= data[i].login %></h1>
       </div>
    <% } %>
    <div class="replace"></div>
