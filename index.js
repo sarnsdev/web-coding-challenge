@@ -36,8 +36,6 @@ app.post("/search", function(req, res) {
       // console.log(resultingData.data.items)
       res.render("search-page.ejs", {
    		data: allResults,
-         pagesRendered: parseInt(pagesRendered),
-         lastQuery: query
    	})
    })
 })

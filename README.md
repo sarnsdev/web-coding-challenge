@@ -48,5 +48,6 @@ TODO
 - [X] Setup dummy views
 - [X] Write js to pull from github
 - [X] ~Decide how to implement more page loads~ (JQuery)
-- [ ] connect js to dummy views
+- [ ] Design and build search page
+- [ ] Design and build resultant page
 - [ ] clean up
