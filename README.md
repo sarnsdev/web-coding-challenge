@@ -16,7 +16,7 @@ Navigation
 Reasoning
 ---------
 
-Personally, I am a web developer with not as much practice as I would like. I do a lot of research and watch lectures on the topic that are recorded at various conferences. I am rather familiar with the tools Ruby on Rails, NodeJS, JEE/Spring, and a few small PHP frameworks. I chose NodeJS for this specific project because through my experience as a Node developer I knew of several npm packages that would help me out with this goal, which shows a foundation in an ability to read outside code specs and an ability to  
+Personally, I am a web developer with not as much practice as I would like. I do a lot of research and watch lectures on the topic that are recorded at various conferences. I am rather familiar with the tools Ruby on Rails, NodeJS, JEE/Spring, and a few small PHP frameworks. I chose NodeJS for this specific project because through my experience as a Node developer I knew of several npm packages that would help me out with this goal, which shows a foundation in an ability to read outside code specs and an ability to work based on outside libraries as to not waste my time. 
 
 Workflow
 --------

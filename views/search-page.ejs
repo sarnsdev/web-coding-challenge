@@ -1,7 +1,9 @@
 <% include partials/header.ejs %>
-<% if (numItems < 50)
-      var n = numItems
-   else var n = 50 %>
+<%    if (numItems == 0) { %>
+       <h1 class="heading">Sorry... no one matches your description</h1>
+<%   } else if (numItems < 50) { %>
+<%      var n = numItems %>
+<%   } else {var n = 50} %>
 <div class="search_item_wrapper">
    <% for(i = 0; i < n; i++) { %>
       <div class="search_item">
